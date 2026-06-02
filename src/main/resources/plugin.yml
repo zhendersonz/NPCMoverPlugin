@@ -1,0 +1,15 @@
+main: me.hendi.npcmover.NPCMoverPlugin
+version: 1.0.0
+name: NPCMoverPlugin
+api-version: '1.21'
+commands:
+  npcmove:
+    description: Comando principal para o sistema de NPCs.
+    usage: /npcmove <create|path|skin|remove|list> [args]
+  npcwand:
+    description: Entrega o graveto de edição de NPC.
+    usage: /npcwand
+permissions:
+  npcmover.admin:
+    description: Permite usar todos os comandos do NPCMover.
+    default: op
